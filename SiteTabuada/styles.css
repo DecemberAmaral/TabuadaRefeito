@@ -1,0 +1,83 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000; /* Fundo preto */
+    margin: 0;
+    color: #ffffff; /* Texto branco */
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Margem inferior para o título */
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Margem inferior para o grupo de formulários */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilos para o campo de entrada */
+input {
+    padding: 8px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    border: 1px solid #000000; /* Borda preta */
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+}
+
+/* Estilos para o botão */
+button {
+    padding: 10px 20px;
+    background-color: #000000; /* Fundo preto */
+    color: #ffffff; /* Texto branco */
+    border: 1px solid #ffffff; /* Borda branca */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Efeito hover para o botão */
+button:hover {
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+    border: 1px solid #000000; /* Borda preta */
+}
+
+/* Estilos para a mensagem de erro */
+.erro {
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Bordas para a tabela e células */
+table, th, td {
+    border: 1px solid #000000; /* Bordas pretas */
+}
+
+/* Padding e alinhamento para células da tabela */
+th, td {
+    padding: 8px;
+    text-align: center;
+}

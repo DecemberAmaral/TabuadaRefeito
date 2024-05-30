@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Tabuada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Tabuada</h1>
+        <p>Desenvolvido por: Danilo Silva Amaral</p>
+        <div class="form-group">
+            <!-- Campo de entrada para o número -->
+            <label for="numero">Digite um número inteiro:</label>
+            <input type="text" id="numero" placeholder="Ex: 5">
+            <!-- Botão para gerar a tabuada -->
+            <button onclick="gerarTabuada()">Gerar Tabuada</button>
+        </div>
+        <!-- Div para exibir mensagem de erro -->
+        <div id="mensagemErro" class="erro"></div>
+        <!-- Div para exibir a tabuada gerada -->
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
